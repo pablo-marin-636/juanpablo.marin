@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Marín Vigoya - Portafolio</title>
+    <style>
+        body {
+            background-color: #f3f4f6;
+            font-family: Arial, sans-serif;
+            color: #1f2937;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e40af;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.25rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.25rem;
+        }
+        header .contact-info {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        header a {
+            color: #93c5fd;
+            text-decoration: underline;
+        }
+        section {
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 1.875rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .project-card {
+            background-color: #e5e7eb;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .project-card h3 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .project-card a {
+            color: #3b82f6;
+            text-decoration: underline;
+            margin-top: 1rem;
+            display: inline-block;
+        }
+        footer {
+            background-color: #1e40af;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        @media (min-width: 768px) {
+            .project-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Juan Marín Vigoya</h1>
+            <p>Desarrollador de Software | Full Stack Developer</p>
+            <div class="contact-info">
+                <p>📍 Medellín, Colombia</p>
+                <p>📧 <a href="mailto:juan.marinvigoya@inemjose.edu.co">juan.marinvigoya@inemjose.edu.co</a></p>
+                <p>☎️ 3103971489</p>
+                <p>💻 <a href="https://github.com/">GitHub</a></p>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h2>🧠 Sobre mí</h2>
+        <p>
+            Soy una persona que está empezando en el mundo de la programación, pero tengo muchas ganas de aprender y crecer en esta área. Aunque aún tengo conocimientos básicos, me esfuerzo cada día por entender mejor cómo funcionan las tecnologías del desarrollo web y de software. Me considero alguien curioso y con muchas ganas de construir proyectos útiles.
+        </p>
+    </section>
+
+    <section>
+        <h2>📁 Proyectos destacados</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>🛒 Tienda virtual de suplementos – “Fit Live Store”</h3>
+                <p><strong>Rol:</strong> Desarrollador en formación</p>
+                <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript (básico)</p>
+                <p>Proyecto personal en el que estoy trabajando para aprender cómo se construye una página web. La tienda permite mostrar productos como proteínas y creatina. Estoy aprendiendo a agregar funciones como carrito de compras y formularios de contacto.</p>
+                <a href="https://github.com/pablo-marin-636/jovenes-creativos">Ver en GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>🥋 Gestor de datos para semillero de Taekwondo – “TAEKONDATA”</h3>
+                <p><strong>Rol:</strong> Estudiante desarrollador</p>
+                <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, Excel, Google Sheets</p>
+                <p>Proyecto realizado en mi media técnica, enfocado en organizar y gestionar la información del semillero de Taekwondo que funciona desde 1976. Permite registrar datos de los estudiantes, años de práctica, logros y asistencia. Fue una experiencia donde aprendí sobre estructuración de datos, formularios y trabajo en equipo.</p>
+                <a href="https://github.com/AngelMastermind/Taekwondo">Ver en GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>💼 Experiencia profesional</h2>
+        <div class="project-card">
+            <h3>Practicante de Desarrollo – SENA</h3>
+            <p><strong>2024 - 2025</strong></p>
+            <p>Apoyo en el desarrollo de módulos web para clientes en el sector educativo. Participación en reuniones ágiles y mantenimiento de código legacy.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>🎓 Formación Académica</h2>
+        <div class="project-card">
+            <h3>INEM José Félix de Restrepo – Medellín</h3>
+            <p>Estudiante de grado 11°, con énfasis en ciencias e informática.</p>
+            <p>Complemento mi educación con cursos de programación y proyectos personales.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Juan Marín Vigoya. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
